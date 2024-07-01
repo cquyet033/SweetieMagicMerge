@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5427885005598025788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4924548052181508304}
+  - component: {fileID: 20960759857869343}
+  m_Layer: 0
+  m_Name: Ads Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4924548052181508304
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5427885005598025788}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 513.3731, y: 810.7463, z: -3.0080552}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &20960759857869343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5427885005598025788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e07d51fbb0c7c743891bb641c4c3c64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isDontDestroyAndLoad: 1
+  _isCheatMode: 0
+  _isTestMode: 0
+  _adData:
+    IsUseOpenApp: 0
+    OpenAppIdAndroid: 
+    OpenAppIdIos: 
+    Type: 0
+    MaxSdkKey: 
+    AdSdkDataSetting:
+      IsTagForChild: 0
+      IsUseRemoteCfgAdsInterval: 0
+      AdsIntervalKey: Key
+      AutoLoadBannerAdOnStartup: 1
+      Android:
+        BanerUnitID: 
+        RewardUnitID: 
+        InterstitialUnitID: 
+        TestDevicesID: []
+        TestDevicesGAID: []
+      IOS:
+        BanerUnitID: 
+        RewardUnitID: 
+        InterstitialUnitID: 
+        TestDevicesID: []
+        TestDevicesGAID: []
+  _completedChecking:
+    IsLoadCompleted: 0
+  _bannerID: Banner ID
+  _interID: Interstitial ID
+  _timeBetweenIntersAd: 0
+  _interPlacement: 
+  _isShowInterstitialAd: 0
+  _currentInterstitialAdInterval: 0
+  _interCountShow: 0
+  _rewardID: Reward ID

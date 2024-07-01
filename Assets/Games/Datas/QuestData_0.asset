@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0526a86cc97a3e3429230f515e057946, type: 3}
+  m_Name: QuestData_0
+  m_EditorClassIdentifier: 
+  ID: 0
+  ListItemData:
+  - ItemType: 0
+    LevelID: 1
+    Icon: {fileID: 0}
+    AssetRef:
+      m_AssetGUID: 132acc3e6fbeeda40be8365dbfd6b913
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    Prefab: {fileID: 1063418677447094108, guid: 132acc3e6fbeeda40be8365dbfd6b913, type: 3}
+  - ItemType: 0
+    LevelID: 0
+    Icon: {fileID: 0}
+    AssetRef:
+      m_AssetGUID: 570dbfa9bb789e948a58c40158a9c7e3
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    Prefab: {fileID: 1408342040343931011, guid: 570dbfa9bb789e948a58c40158a9c7e3, type: 3}
+  Coin: 6
+  Exp: 2

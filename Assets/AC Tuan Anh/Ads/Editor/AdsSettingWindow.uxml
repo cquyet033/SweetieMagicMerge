@@ -1,0 +1,46 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/AC%20Tuan%20Anh/Ads/Editor/AdsSettingWindow.uss?fileID=7433441132597879392&amp;guid=edb9047e0e5c74e4ebfa830c45432555&amp;type=3#AdsSettingWindow" />
+    <ui:VisualElement name="MainContent" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+        <ui:Label text="Ads Setting" name="Title" style="align-items: center; justify-content: center; -unity-text-align: upper-center; font-size: 30px; color: rgb(0, 221, 255); -unity-font-style: bold;" />
+        <ui:Label tabindex="-1" text="SDK:" display-tooltip-when-elided="true" name="lb_SDK" style="font-size: 20px;" />
+        <ui:VisualElement name="SDKContent">
+            <ui:VisualElement name="Admob" style="flex-direction: row; justify-content: flex-start; align-items: center; align-self: center; width: 700px;">
+                <ui:Label tabindex="-1" text="Google Admob:" display-tooltip-when-elided="true" style="width: 200px; font-size: 16px;" />
+                <ui:VisualElement name="CurVersionContent" style="flex-direction: row; width: 200px;">
+                    <ui:Label tabindex="-1" text="Current Ver:" display-tooltip-when-elided="true" name="lb_CurrentVer" style="font-size: 16px;" />
+                    <ui:Label tabindex="-1" text="N/A" display-tooltip-when-elided="true" name="txtAdmob_CurrentVer" class="notfound" style="font-size: 16px;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="LasteVersionContent" style="flex-direction: row; width: 200px;">
+                    <ui:Label tabindex="-1" text="Latest Ver:" display-tooltip-when-elided="true" name="lb_LatestVer" style="font-size: 16px;" />
+                    <ui:Label tabindex="-1" text="N/A" display-tooltip-when-elided="true" name="txtAdmob_LatestVer" class="notfound" style="font-size: 16px;" />
+                </ui:VisualElement>
+                <ui:Button text="Update" display-tooltip-when-elided="true" name="btnAdmob_Update" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Max" style="flex-direction: row; justify-content: flex-start; align-items: center; align-self: center; width: 700px;">
+                <ui:Label tabindex="-1" text="Max AppLovin:" display-tooltip-when-elided="true" style="width: 200px; font-size: 16px;" />
+                <ui:VisualElement name="CurVersionContent" style="flex-direction: row; width: 200px;">
+                    <ui:Label tabindex="-1" text="Current Ver:" display-tooltip-when-elided="true" name="lb_CurrentVer" style="font-size: 16px;" />
+                    <ui:Label tabindex="-1" text="N/A" display-tooltip-when-elided="true" name="txtMax_CurrentVer" class="notfound" style="font-size: 16px;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="LasteVersionContent" style="flex-direction: row; width: 200px;">
+                    <ui:Label tabindex="-1" text="Latest Ver:" display-tooltip-when-elided="true" name="lb_LatestVer" style="font-size: 16px;" />
+                    <ui:Label tabindex="-1" text="N/A" display-tooltip-when-elided="true" name="txtMax_LatestVer" class="notfound" style="font-size: 16px;" />
+                </ui:VisualElement>
+                <ui:Button text="Update" display-tooltip-when-elided="true" name="btnMax_Update" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="DownloadContent" style="align-self: center; align-items: center;">
+            <ui:Label style="width: 606px; height: 25px; background-color: rgb(42, 42, 42); -unity-text-align: middle-center; color: rgb(255, 255, 255); min-width: 606px; align-items: center; justify-content: center; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-left-width: 0.1px; border-right-width: 0.1px; border-top-width: 0.1px; border-bottom-width: 0.1px;">
+                <ui:Label name="lbProcessBar" style="width: 0; height: 20px; background-color: rgb(0, 137, 255); min-width: 0; min-height: 20px; max-height: 20px; max-width: 600px; align-self: flex-start; justify-content: center;">
+                    <ui:Label text="DownLoad" style="width: 600px; height: 20px; -unity-text-align: middle-center; min-width: 0; min-height: 20px; max-height: 20px; max-width: 600px; color: rgb(255, 255, 255); -unity-font-style: bold;" />
+                </ui:Label>
+            </ui:Label>
+        </ui:VisualElement>
+        <ui:Label tabindex="-1" text="Setting:" display-tooltip-when-elided="true" name="lb_Setting" style="font-size: 20px;" />
+        <ui:VisualElement name="DataContent" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); align-items: center;">
+            <ui:ScrollView>
+                <uie:PropertyField name="AdsSettingData" binding-path="_adsData" style="width: 650px;" />
+            </ui:ScrollView>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

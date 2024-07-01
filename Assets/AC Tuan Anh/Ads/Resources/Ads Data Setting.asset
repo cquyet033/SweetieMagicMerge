@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87ddb2d841699604ea1bf57d821e6177, type: 3}
+  m_Name: Ads Data Setting
+  m_EditorClassIdentifier: 
+  AdsData:
+    IsUseOpenApp: 1
+    OpenAppIdAndroid: ca-app-pub-1919652342336147/7835169121
+    OpenAppIdIos: ca-app-pub-1919652342336147/6372125204
+    Type: 2
+    MaxSdkKey: 7yuxQQv3-BNp4sB7KaiNkH-xtLw_TFb87GJ-xZZbU2WIawMF8Se3a5y9PC6rC9iwEuTkiOriUlvTFtx6gOJd30
+    AdSdkDataSetting:
+      IsTagForChild: 0
+      IsUseRemoteCfgAdsInterval: 1
+      AdsIntervalKey: ads_interval
+      AutoLoadBannerAdOnStartup: 0
+      Android:
+        BanerUnitID: 20c29a45345ddbd6
+        RewardUnitID: 56f518f88ceb46f8
+        InterstitialUnitID: ab2aabb50f82be0b
+        TestDevicesID:
+        - C07ED69F09197ECEFDE04F7A7CFD1442
+        TestDevicesGAID:
+        - 1de29302-a89c-44c4-9ec5-4eb47ce63f3d
+      IOS:
+        BanerUnitID: 779dedf7ececf37a
+        RewardUnitID: 8923d65d2f19c8b4
+        InterstitialUnitID: e0331771074d77a0
+        TestDevicesID: []
+        TestDevicesGAID: []

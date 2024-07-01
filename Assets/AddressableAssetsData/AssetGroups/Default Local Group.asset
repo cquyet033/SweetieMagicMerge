@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: b87f4f54afc0acc4b8acc8b8e108cde2
+  m_SerializeEntries:
+  - m_GUID: 28105e1244f8c044eb2cf3b71ae7572a
+    m_Address: Assets/Games/Datas/ItemDatabase.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6d91decf43383df4ea760361476623c5
+    m_Address: Assets/Games/Datas/LevelQuest.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 570dbfa9bb789e948a58c40158a9c7e3
+    m_Address: Assets/Games/Prefabs/ProduceItem/Produce_1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 132acc3e6fbeeda40be8365dbfd6b913
+    m_Address: Assets/Games/Prefabs/ProduceItem/Produce_2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cb4b59a5025787d4c91cf1004db8a8fa
+    m_Address: Assets/Games/Prefabs/ProduceItem/Produce_3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 93d650f6e5b884449b4a1a631b80ebf5
+    m_Address: Assets/Games/Prefabs/ProduceItem/Produce_4.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: fa3ad284f9258044ab0a5a994d37dd4a, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 63ca2523f45e05243bf9c90855cb2183, type: 2}
+    - {fileID: 11400000, guid: 0cb8b973604f5ca4cb87769964441d45, type: 2}
